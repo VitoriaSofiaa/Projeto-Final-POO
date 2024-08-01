@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.left-column, .right-column {
+    background-color: #fff;
+    color: #333;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.left-column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-column img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.left-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-column ul li {
+    background: #e7e7e7;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    padding: 20px 40px; /* Aumentar o tamanho dos botões */
+    margin: 15px 0; /* Adicionar mais espaço entre os botões */
+    font-size: 20px; /* Aumentar a fonte dos botões */
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #b30000;
+    color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logo {
+    height: 200px;
+    width: auto;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #800000;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #b30000;
+}
+
+.social-icons img {
+    height: 20px;
+    width: 20px;
+}
+
+.testimonial, .statistics, .upcoming-campaigns, .faqs {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.testimonial h3, .statistics h3, .upcoming-campaigns h3, .faqs h3 {
+    margin-top: 0;
+    color: #800000;
+}
+
+.testimonial p, .statistics p, .upcoming-campaigns p, .faqs p {
+    margin: 5px 0;
+}
