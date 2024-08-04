@@ -28,6 +28,13 @@ Este é um projeto para a criação de um sistema de banco de sangue usando HTML
 ## Como Executar o Projeto
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-
-
+   git clone https://github.com/VitoriaSofiaa/Projeto-Final-POO.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd Projeto-Final-POO
+3. Instale as dependências:
+   ```bash
+   npm install
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+    npm start
