@@ -38,3 +38,11 @@ Este é um projeto para a criação de um sistema de banco de sangue usando HTML
 4. Inicie o servidor de desenvolvimento:
    ```bash
     npm start
+ou 
+
+1. Baixar o Projeto em Zip.
+2. Extrair.
+3. Abrir em uma IDE.
+4. Executar:
+ ```bash
+  npm start
